@@ -1,6 +1,5 @@
 {
 	"name": "ui",
-	"homepage": "http://bdbose.github.io/UI-Ux-Development",
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
