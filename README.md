@@ -2,7 +2,7 @@
 
 # UI Made with Reactjs Scss
 
-<img src='/preview.png' width='100%'>
+<img src='/public/preview.png' width='100%'>
 
 ### Tech
 
