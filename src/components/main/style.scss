@@ -1,0 +1,87 @@
+/** @format */
+.main-dis {
+	display: flex;
+	width: 100%;
+	display: flex;
+	width: 100%;
+	margin-top: 30px;
+	margin-left: 30px;
+	margin-right: 50px;
+	color: white;
+	flex-direction: column;
+	padding-bottom: 30px;
+	.hero {
+		background-image: url('/assets/Interstellar.png');
+		padding: 50px 0;
+		height: fit-content;
+		background-repeat: no-repeat;
+		background-size: cover;
+		object-fit: cover;
+		border-radius: 20px;
+		display: flex;
+		flex-direction: column;
+		.hero-wrapper {
+			margin: auto 50px;
+		}
+		.hero-button-cover {
+			display: flex;
+			align-items: center;
+		}
+		.hero-button {
+			background-color: black;
+			opacity: 0.7;
+			align-items: center;
+			border-radius: 5px;
+			padding: 10px 20px;
+			margin-right: 10px;
+			width: fit-content;
+			display: flex;
+			align-items: center;
+			img {
+				width: 25px;
+				margin-right: 5px;
+			}
+			span {
+				display: inline-flex;
+			}
+		}
+		h1 {
+			font-size: 40px;
+		}
+	}
+	.hero-text {
+		width: 50%;
+		margin: 20px 0;
+	}
+	.collection-wrapper {
+		display: flex;
+		justify-content: space-between;
+		.col-items {
+			background-color: #121924;
+			border-radius: 20px;
+			overflow: hidden;
+			padding-bottom: 30px;
+			margin-right: 20px;
+			img {
+				width: 250px;
+				height: 141px;
+			}
+			.col-no {
+				position: absolute;
+				padding: 5px;
+				background-color: black;
+				opacity: 0.7;
+				margin: 10px;
+				border-radius: 5px;
+				transform: translateX(200px);
+			}
+			.col-title,
+			.col-des {
+				padding: 8px 20px;
+			}
+			.col-title {
+				font-weight: bold;
+			}
+		}
+	}
+}

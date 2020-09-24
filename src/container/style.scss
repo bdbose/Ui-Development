@@ -1,0 +1,15 @@
+/** @format */
+
+.main {
+	background-color: #0f1119;
+	display: flex;
+	border-radius: 30px;
+	width: 90vw;
+	margin: 3% auto;
+	padding: 10px;
+	flex-direction: column;
+	.wrapper {
+		margin-left: 50px;
+		display: flex;
+	}
+}
